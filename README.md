@@ -1,3 +1,3 @@
 # Equacao_Diferencial_Ordinaria
 
-Cadeira da UFPB
+Cadeira da UFPB 2023.2
