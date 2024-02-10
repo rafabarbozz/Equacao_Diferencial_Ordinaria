@@ -32,7 +32,7 @@ def euler_PVI_simples(equacao: str, limite_inf: float, limite_sup: float, qtd_pa
 # Função para calcular EDO com 2 equações
 def euler_PVI_composto(equacao_1: str, equacao_2: str, limite_inf: float, limite_sup: float, qtd_passos: int, y_10: float, y_20: float):
     Vet_x = [None] * (qtd_passos + 1) # Vetor que receberá todos os valores de x
-    Vet_y1 = [None] * (qtd_passos + 1) # Vetor que receberá todos os valores de x
+    Vet_y1 = [None] * (qtd_passos + 1) # Vetor que receberá todos os valores de y1
     Vet_y2 = [None] * (qtd_passos + 1) # Vetor que receberá todos os valores de y2
     Fxy_1 = 0
     Fxy_2 = 0
